@@ -3,9 +3,9 @@
 	"version": "1.1.0",
 	"description": "Personal portfolio template built using Reactjs",
 	"author": {
-		"name": "Tharindu N. Madhusanka",
-		"email": "mail@tharindu.dev",
-		"url": "https://tharindu.dev"
+		"name": "Ahmad Masood",
+		"email": "ahmadmasood@gmail.com",
+		"url": " "
 	},
 	"license": "MIT",
 	"private": true,
@@ -24,7 +24,7 @@
 		"react-ga4": "^2.1.0",
 		"react-helmet": "^6.1.0",
 		"react-router-dom": "^6.11.1",
-		"react-scripts": "5.0.1",
+		"react-scripts": "^5.0.1",
 		"styled-components": "^5.3.10",
 		"web-vitals": "^2.1.4"
 	},

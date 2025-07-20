@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2037ea7d.css",
+    "main.js": "/static/js/main.5074cc0b.js",
+    "static/js/787.512dd3f2.chunk.js": "/static/js/787.512dd3f2.chunk.js",
+    "static/media/—Pngtree—fluid gradient empty sale banner_8635055.png": "/static/media/—Pngtree—fluid gradient empty sale banner_8635055.ad29cf0575ab6b38d5c4.png",
+    "index.html": "/index.html",
+    "main.2037ea7d.css.map": "/static/css/main.2037ea7d.css.map",
+    "main.5074cc0b.js.map": "/static/js/main.5074cc0b.js.map",
+    "787.512dd3f2.chunk.js.map": "/static/js/787.512dd3f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2037ea7d.css",
+    "static/js/main.5074cc0b.js"
+  ]
+}
