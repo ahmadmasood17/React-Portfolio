@@ -1,0 +1,79 @@
+@import "../../../data/styles.css";
+
+.homepage-article {
+	width: 90%;
+	mix-blend-mode: normal;
+	border-radius: 20px;
+	opacity: 0.8;
+	transition: ease all 0.3s;
+	position: relative;
+	height: 190px;
+	overflow: hidden;
+}
+
+.homepage-article:hover {
+	background: linear-gradient(to bottom, #7e7ee4, #f0f0f0);
+
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+}
+
+
+.homepage-wrrapper{
+position: absolute;
+top: 100px;
+overflow: hidden;
+transition: ease all 0.3s;
+}
+
+.homepage-article:hover .homepage-wrrapper {
+	top: 60px;
+}
+
+.homepage-article-content {
+	padding: 30px;
+}
+
+.homepage-article-date {
+	opacity: 1;
+	color: #ffffff;
+	font-size: 12px;
+	margin-bottom: 1em;
+}
+
+.homepage-article-title {
+	opacity: 1;
+	color: #ffffff;
+	font-size: 16px;
+	margin-bottom: 1em;
+	font-weight: 700;
+}
+
+.homepage-article-description {
+	opacity: 1;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.homepage-article:hover .homepage-article-title, .homepage-article:hover .homepage-article-description,
+.homepage-article:hover .homepage-article-date {
+	color: #000000;
+}
+
+.homepage-article-link {
+	opacity: 1;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.homepage-article-link a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	.homepage-article {
+		width: 100%;
+	}
+}

@@ -1,0 +1,53 @@
+@import "../../../data/styles.css";
+
+.works-body {
+	margin-bottom: 10px;
+}
+
+.work {
+	display: flex;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+.work-image {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	outline: 6px solid white;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.work-title {
+	font-size: 15px;
+	font-weight: 700;
+	
+	margin-top: -3px;
+	color: #FFFFFF;
+}
+
+.work-subtitle {
+	
+	font-size: 12px;
+		color: #FFFFFF;
+
+}
+
+.work-duration {
+	
+	width: 100%;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: right;
+	color: #7E7EE4;
+}
+.flex-gap{
+	display: flex;
+	gap:20px;
+	width: 25%;
+}
+.title-sub{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
